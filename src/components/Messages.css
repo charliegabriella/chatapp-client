@@ -1,9 +1,9 @@
-.simone {
+.messages {
   width: 50vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lightblue;
+  background-color: pink;
   font-family: "Nanum Gothic", sans-serif;
 }
