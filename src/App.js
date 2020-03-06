@@ -6,7 +6,9 @@ import "./App.css";
 class App extends React.Component {
   state = { text: "" };
 
-  stream = new EventSource("http://localhost:4000/stream");
+  stream = new EventSource(
+    "https://shrouded-bastion-42634.herokuapp.com/stream"
+  );
 
   componentDidMount = () => {
     this.stream.onmessage = event => {
@@ -25,7 +27,7 @@ class App extends React.Component {
 
     try {
       const response = await superagent
-        .post("http://localhost:4000/message")
+        .post("https://shrouded-bastion-42634.herokuapp.com/message")
         .send({ text: this.state.text });
 
       console.log(response);
