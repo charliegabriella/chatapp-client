@@ -51,6 +51,7 @@ class App extends React.Component {
     return (
       <main className="simone">
         <form onSubmit={this.onSubmit}>
+          <h1>HELLO!</h1>
           <input type="text" onChange={this.onChange} value={this.state.text} />
           <button>Send</button>
           <button onClick={this.reset}>Reset</button>
