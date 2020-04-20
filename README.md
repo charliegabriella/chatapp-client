@@ -1,6 +1,6 @@
 
 # Chat App  💬
-This Chat App is made during the **[Codaisseur Full Stack Developer BootCamp](https://codaisseur.com/become-a-developer)** with the intention of practising developing an full stack web application with the use of fully controlled forms, and real time data stream.
+This Chat App is made during the **[Codaisseur Full Stack Developer BootCamp](https://codaisseur.com/become-a-developer)** with the intention of practising developing a full stack web application with the use of fully controlled forms, and real time data stream.
 
 ## Features
 The user can send and receive real time messages and chat in different channels. 
